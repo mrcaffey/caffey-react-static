@@ -9,11 +9,10 @@ import './app.css'
 const App = () => (
   <Router>
     <div>
+    <h1>Caffey, Inc.</h1>
       <nav>
-        <h1>Caffey, Inc.</h1>
         <Link exact to="/">Home</Link>
         <Link to="/about">About Us</Link>
-        <Link to="/blog">Blog</Link>
         <Link to="/work">Our Work</Link>
       </nav>
       <div className="content">
