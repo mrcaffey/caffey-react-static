@@ -23,6 +23,10 @@ export default {
         path: '/work',
         component: 'src/containers/Work',
       },
+      {
+        path: '/contact',
+        component: 'src/containers/Contact',
+      },
     ]
   },
 }
