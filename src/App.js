@@ -9,7 +9,7 @@ import './app.css'
 const App = () => (
   <Router>
     <div>
-    <h1>Caffey, Inc.</h1>
+    <h1 style={{ fontSize: '2.5em'  }}>Caffey, Inc.</h1>
       <nav>
         <Link exact to="/">Home</Link>
         <Link to="/about">About Us</Link>
