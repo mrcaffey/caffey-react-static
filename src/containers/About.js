@@ -22,7 +22,9 @@ export default () => (
   </div>
 <div>
 <h1>Company History Timeline</h1>
-<img src="/images/jerry.jpg" alt="jerrycaffey"/>
+<div style = {{ alignContent: `right`}}>
+<img src="/images/jerry.jpg" alt="jerrycaffey"></img>
+</div>
 <ul>
   <li><b>1979:</b> Jerry Caffey graduates from Mississippi State University with degree in Construction Engineering Technology,
     begins work in design/build construction industry at Blount International, Ltd.
