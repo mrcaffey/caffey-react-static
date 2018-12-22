@@ -22,7 +22,7 @@ export default () => (
   </div>
 <div>
 <h1>Company History Timeline</h1>
-<div style = {{ alignContent: `right`}}>
+<div>
 <img src="/images/jerry.jpg" alt="jerrycaffey"></img>
 </div>
 <ul>

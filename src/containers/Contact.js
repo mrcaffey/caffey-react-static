@@ -11,6 +11,7 @@ export default () => (
         <h3><i>Please read the following carefully:</i></h3>
         <ol>
         <li>Meet with the customer/OEM and establish a Scope of Work.</li>
+        <br/>
         <li>Establish working schematic drawings that can be approved for OEM site-specific space.
           This includes OEM discussions, facility investigation and engineering analysis.
         </li>
