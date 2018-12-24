@@ -19,6 +19,7 @@ export default () => (
        structural and spacial layouts required. This is most critical in equipment swap-outs as well as interior
        reconstruction within a healthcare facility.
       </p>
+      <p>Caffey, Inc. also proudly supports medical missions around the world.</p>
   </div>
 <div>
 <h1>Company History Timeline</h1>
