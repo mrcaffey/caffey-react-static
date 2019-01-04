@@ -6,6 +6,12 @@ export default () => (
   <React.Fragment>
   <div>
     <h1>About Us</h1>
+    <h1>Our Mission Statement</h1>
+    <ol>
+      <li>To Honor God in All Transactions</li>
+      <li>Be the most Professional Design-Build Renovation Firm in the Country</li>
+      <li>Distance our corporation from the status quo and create the standard</li>
+    </ol>
     <p>Caffey, Inc. has successfully completed over 750 medical imaging projects in its history.
       A healthcare imaging specialty background is a better model for imaging projects in that we work
       with hospital staff to construct the design we create. With 30 years in the industry, we've made
