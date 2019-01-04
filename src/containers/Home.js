@@ -4,9 +4,10 @@ import { withSiteData } from 'react-static'
 
 export default withSiteData(() => (
   <React.Fragment>
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
-    <h1 style={{ textAlign: 'center' }}>Caffey Inc Banner Image</h1>
-  <h1 style={{ color: 'maroon' }}>What We Do</h1>
+    <h1 style={{ textAlign: 'center' }}>Caffey, Inc. Banner Image</h1>
+    <div className="banner">
+      <img src= "images/caffeytripler.jpg" alt="caffeyinc" width="auto" height="auto" />
+    </div>
   <h3>Caffey, Inc. is a Design-Build Medical Renovation Firm specializing in turnkey diagnostic imaging renovation projects.
       Our corporate office is located in D'Iberville, Mississippi.
   </h3>
