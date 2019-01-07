@@ -5,7 +5,6 @@ import React from 'react'
 export default () => (
   <React.Fragment>
   <div>
-    <h1>About Us</h1>
     <h1>Our Mission Statement</h1>
     <ol>
       <li>To Honor God in All Transactions</li>
@@ -47,22 +46,27 @@ export default () => (
 <div>
 <h1>Design Team</h1>
 <h3>Alan Dubuisson</h3>
-<p>Design Department</p>
+<p>Director of Design & Development</p>
 <h3>Kirk Zarske</h3>
-<p>Mechanical Engineer</p>
+<p>Mechanical Design Manager</p>
 <h3>Alan Young</h3>
 <p>Architect</p>
 <h3>Brad Patano</h3>
-<p>Electrical Engineer</p>
+<p>Design Manager</p>
 </div>
 
 <h1>Production Managers</h1>
 <h3>Robert Freese</h3>
 <p>Project Manager</p>
 <h3>Mike Everett</h3>
-<p>Project Manager/Electrical Division Manager</p>
+<p>Project Developer/Electrical Division Manager</p>
 <h3>Lance Suchomel</h3>
 <p>Project Manager</p>
+
+<h1>Administration</h1>
+<h3>Sarah Loup</h3>
+<h3>Jeanna Ritter</h3>
+<h3>John Paul Buckley</h3>
 
 </div>
 </React.Fragment>
