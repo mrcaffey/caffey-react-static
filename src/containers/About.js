@@ -44,16 +44,25 @@ export default () => (
     Department of Defense contracts on military bases across the US and World.
   </li>
 </ul>
+<div>
 <h1>Design Team</h1>
 <h3>Alan Dubuisson</h3>
+<p>Design Department</p>
 <h3>Kirk Zarske</h3>
+<p>Mechanical Engineer</p>
 <h3>Alan Young</h3>
+<p>Architect</p>
 <h3>Brad Patano</h3>
+<p>Electrical Engineer</p>
+</div>
 
 <h1>Production Managers</h1>
 <h3>Robert Freese</h3>
+<p>Project Manager</p>
 <h3>Mike Everett</h3>
+<p>Project Manager/Electrical Division Manager</p>
 <h3>Lance Suchomel</h3>
+<p>Project Manager</p>
 
 </div>
 </React.Fragment>
