@@ -5,22 +5,22 @@ import React from 'react'
 export default () => (
   <div>
     <h1>Caffey, Inc. Projects</h1>
-    <h2>Formally Contracted</h2>
+    <h2>Formally Contracted -- In Production</h2>
     <ul>
-      <li>Project 1</li>
+      <li>Ochsner Medical Center, Northshore MRI Room -- Slidell, LA.</li>
+      <li>Ochsner Urgent Care Metairie Renovation -- Kenner, LA.</li>
+      <li>Ochsner Medical Center Main Campus Pediatric Cath Lab Renovation -- New Orleans, LA.</li>
+      <li>Keesler Air Force Base AGFA Rooms 1C203, 1C255 -- Biloxi, MS.</li>
+      <li>VA Pensacola MRI Room Renovation -- Pensacola, FL.</li>
+      <li>Hilo Medical Center Renovation for New 1st Floor MRI -- Hilo, HI.</li>
     </ul>
-    <h2>In Production</h2>
+    <h2>Formally Contracted -- In Design</h2>
     <ul>
-      <li>Ochsner Medical Center - Northshore Campus Room Renovation, Slidell, LA.</li>
-      <li>Keesler Air Force Base Medical Center - AGFA Room Renovation, Biloxi, MS.</li>
-      <li>JACC Pensacola - Philips MRI Room Renovation, Pensacola, FL.</li>
-      <li>Hilo Medical Center MRI Room Renovation, Hilo, Hawai'i</li>
-      <li>Project 1</li>
-      <li>Project 1</li>
-      <li>Project 1</li>
-      <li>Project 1</li>
+      <li>Keesler Air Force Base Cath Lab Rooms 1, 2 -- Biloxi, MS.</li>
+      <li>Tripler Army Medical Center Multipurpose Room Renovation -- Honolulu, HI.</li>
+      <li>Tripler Army Medical Center Nuclear Medicine Room Renovation -- Honolulu, HI.</li>
+      <li>Hilo Medical Center Radiology Room Renovation -- Hilo, HI.</li>
+      <li>VA Pensacola DSPECT Nuclear Medicine Room Renovation -- Pensacola, FL.</li>
     </ul>
-    <h2>In Design</h2>
-    <p>Baton Rouge North Clinic - Canon</p>
   </div>
 )
