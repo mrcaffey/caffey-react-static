@@ -5958,6 +5958,10 @@ react-static@^5.9.12:
     webpack-flush-chunks "^1.2.3"
     webpack-node-externals "^1.6.0"
 
+react-sticky-footer@^0.1.0-rc3:
+  version "0.1.0-rc3"
+  resolved "https://registry.npmjs.org/react-sticky-footer/-/react-sticky-footer-0.1.0-rc3.tgz#47137e332cafcf49a48561894aa410cca683b3af"
+
 react-universal-component@^2.8.1:
   version "2.9.0"
   resolved "https://registry.npmjs.org/react-universal-component/-/react-universal-component-2.9.0.tgz#75e8d418e6611e43cdbabe5a6c5dab8870c12e30"

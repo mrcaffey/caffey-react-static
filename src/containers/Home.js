@@ -4,7 +4,6 @@ import { withSiteData } from 'react-static'
 
 export default withSiteData(() => (
   <React.Fragment>
-    <h1 style={{ textAlign: 'center' }}>Caffey, Inc. Banner Image</h1>
     <div className="banner">
       <img src= "images/caffeytripler.jpg" alt="caffeyinc" width="88%" height="800px" margin="0" backgroundSize="cover"/>
     </div>
