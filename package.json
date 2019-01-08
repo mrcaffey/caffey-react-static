@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
@@ -12,7 +13,7 @@
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.18.0",
     "bootstrap": "^3.4.0",
     "react": "^16.7.0",
     "react-avatar": "^3.5.0",
