@@ -25,8 +25,11 @@ const App = () => (
         <StickyFooter
           bottomThreshold={50}
           normalStyles={{
-            backgroundColor: "#999999",
-            padding: "2rem"
+            backgroundColor: "#800000",
+            padding: "2rem",
+            margin: "10px",
+            marginLeft: "-30px",
+            marginRight: "-30px"
           }}
         />
       </div>
