@@ -29,5 +29,16 @@
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
     "serve": "^6.1.0"
-  }
+  },
+  "description": "This example is the most basic version of react-static available. It includes: - Babel - CSS imports - Image imports - File imports - Automatic Routing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcaffey/caffey-react-static.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/mrcaffey/caffey-react-static/issues"
+  },
+  "homepage": "https://github.com/mrcaffey/caffey-react-static#readme"
 }

@@ -5,7 +5,7 @@ import { withSiteData } from 'react-static'
 export default withSiteData(() => (
   <React.Fragment>
     <div className="banner">
-      <img src= "images/caffeytripler.jpg" alt="caffeyinc" width="88%" height="800px" margin="0" backgroundSize="cover"/>
+      <img src= "images/rsz_siemensmachine.jpg" alt="caffeyinc" width="88%" height="800px" margin="0" backgroundSize="cover"/>
     </div>
   <h3>Caffey, Inc. is a Design-Build Medical Renovation Firm specializing in turnkey diagnostic imaging renovation projects.
       Our corporate office is located in D'Iberville, Mississippi.
