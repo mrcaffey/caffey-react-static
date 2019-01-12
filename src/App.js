@@ -26,9 +26,9 @@ const App = () => (
           bottomThreshold={50}
           normalStyles={{
             backgroundColor: "#800000",
-            padding: "2rem",
+            padding: "1rem",
             margin: "10px",
-            marginLeft: "-30  px",
+            marginLeft: "-30px",
             marginRight: "-30px"
           }}
         />
