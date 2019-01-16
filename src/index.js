@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import "react-image-gallery/styles/css/image-gallery.css"
+
 
 // Your top level component
 import App from './App'
