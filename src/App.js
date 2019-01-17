@@ -10,7 +10,7 @@ import './app.css'
 const App = () => (
   <Router>
     <div>
-    <h1 style={{ fontSize: '4.3em', margin: '.3em', color: 'maroon', fontWeight: 'bold'}}>Caffey, Inc.</h1>
+    <h1 style={{ fontFamily: 'Poppins',  fontSize: '4.3em', margin: '.3em', color: 'maroon', fontWeight: 'bold'}}>Caffey, Inc.</h1>
     <subtext style={{ fontsize: '.30em', margin: '.3em', fontWeight: '400'}}><i>Striving to be the best Design-Build Medical Renovation Firm in the Nation</i></subtext>
     <h3 style={{ textAlign: 'right', margin: '10px', color: 'maroon'}}>228.392.7465</h3>
       <nav>
