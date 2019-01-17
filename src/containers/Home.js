@@ -11,6 +11,9 @@ class Home extends React.Component {
       },
       {
         original: 'images/signamachine.jpg',
+      },
+      {
+        original: 'images/StanfordChildrensHospital.jpg',
       }
     ]
 

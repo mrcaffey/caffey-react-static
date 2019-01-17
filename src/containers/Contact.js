@@ -42,7 +42,7 @@ class Contact extends Component {
       <FormGroup>
         <Label for="name">Name:</Label>
         <Input
-          type="text"
+          type="text" required
           name="name"
           onChange={this.handleChange}
         />
