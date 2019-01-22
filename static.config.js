@@ -2,6 +2,7 @@ import axios from 'axios'
 
 export default {
   getSiteData: () => ({
+    siteRoot: 'https://www.caffey-inc.com', basePath: 'static/react-static',
     title: 'React Static',
   }),
   getRoutes: async () => {
