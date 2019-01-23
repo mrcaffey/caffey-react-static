@@ -3,6 +3,6 @@ import React from 'react'
 
 export default () => (
   <div>
-    <h1>404 - Oh no's! We couldn't find that page. Please go back to caffeyinc.com. :(</h1>
+    <h1> Sorry! :( This site is still under construction. Send an email to jpbuckley@caffeyinc.com for new inquiries!</h1>
   </div>
 )

@@ -40,6 +40,7 @@ class Contact extends Component {
     return (
     <Form onSubmit={this.handleSubmit} style={{ width: '600px'}}>
       <FormGroup>
+      <h3>This page is under construction! Send an email to jpbuckley@caffeyinc.com for new inquiries.</h3>
         <Label for="name">Name:</Label>
         <Input
           type="text" required
