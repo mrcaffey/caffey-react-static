@@ -133,7 +133,7 @@ export default () => (
 <h3>Sarah Loup</h3>
 <h3>Jeanna Ritter</h3>
 <h3>John Paul Buckley</h3>
-<Avatar skypeId="sitebase" size="150" round="20px"/>
+<Avatar src="/images/JPB.jpg" size="150" round="20px"/>
 </div>
 </React.Fragment>
 )
