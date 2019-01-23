@@ -12,7 +12,7 @@ const App = () => (
     <div>
     <h1 style={{ fontFamily: 'Poppins',  fontSize: '4.3em', margin: '.3em', color: 'maroon', fontWeight: 'bold'}}>Caffey, Inc.</h1>
     <subtext style={{ fontsize: '.30em', margin: '.3em', fontWeight: '400'}}><i>Striving to be the best Design-Build Medical Renovation Firm in the Nation</i></subtext>
-    <a href="tel:2283927465" style={{ textAlign: 'right', margin: '10px', color: 'maroon'}}>228-392-7465</a>
+    <a href="tel:2283927465" style={{ fontSize: '1.5em', textAlign: 'right', display: 'block',  margin: '10px', color: 'maroon'}}>228-392-7465</a>
       <nav>
         <Link exact to="/">Home</Link>
         <Link to="/about">About Us</Link>
