@@ -34,7 +34,7 @@ class Home extends React.Component {
 <h3>Caffey is the preferred contractor for the following OEM's (Original Equipment Manufacturers):</h3>
 <ul>
   <li>General Electric</li>
-  <li>Toshiba Medical</li>
+  <li>Canon Medical</li>
   <li>Siemens Medical</li>
   <li>Philips Medical</li>
   <li>Varian Medical</li>
