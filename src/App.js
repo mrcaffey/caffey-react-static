@@ -14,9 +14,10 @@ const App = () => (
     <subtext style={{ fontsize: '.30em', margin: '.3em', fontWeight: '400'}}><i>Striving to be the best Design-Build Medical Renovation Firm in the Nation</i></subtext>
     <a href="tel:2283927465" style={{ fontSize: '1.5em', textAlign: 'right', display: 'block',  margin: '10px', color: 'maroon'}}>228-392-7465</a>
       <nav>
-        <Link exact to="/">Home</Link>
+        <a href="/">Home</a>
         <Link to="/about">About Us</Link>
         <Link to="/work">Our Work</Link>
+        <Link to="/testimonials">Testimonials</Link>
         <Link to="/contact">Contact Us</Link>
       </nav>
       <div className="content">

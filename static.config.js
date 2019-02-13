@@ -28,6 +28,10 @@ export default {
         path: '/contact',
         component: 'src/containers/Contact',
       },
+      {
+        path: '/testimonials',
+        component: 'src/containers/Testimonials',
+      },
     ]
   },
 }
