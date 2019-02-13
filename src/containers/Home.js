@@ -42,6 +42,10 @@ class Home extends React.Component {
 <h3>We have a 20,000 square foot multipurpose facility near our headquarters. This serves as a sheet metal and bonded material fabrication warehouse which
     and produces UL-Listed electrical raceway components and HVAC materials as well as being a large production staging center. 
 </h3>
+<br/>
+<br/>
+<br/>
+<br/>
 </React.Fragment>
   );
   }

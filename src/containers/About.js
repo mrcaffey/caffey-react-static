@@ -4,6 +4,11 @@ import Avatar from 'react-avatar';
 //
 
 const styles = {
+
+  header:{
+    textDecoration: 'underline'
+  },
+
   profile:{
     display: 'flex',
     flexDirection: 'row',
@@ -51,11 +56,14 @@ const profiles = [
 export default () => (
   <React.Fragment>
   <div>
-    <h1>Our Mission Statement</h1>
+    <div style={ styles.header }>
+     <h1>Our Mission Statement</h1>
+     <br/>
+    </div>
     <ol>
-      <li>To Honor God in All Transactions</li>
-      <li>Be the most Professional Design-Build Renovation Firm in the Country</li>
-      <li>Distance our corporation from the status quo and create the standard</li>
+    <b><li>To Honor God in All Transactions</li></b>
+    <b><li>Be the most Professional Design-Build Renovation Firm in the Country</li></b>
+    <b><li>Distance our corporation from the status quo and create the standard</li></b>
     </ol>
     <p>Caffey, Inc. has successfully completed over 750 medical imaging projects in its history.
       A healthcare imaging specialty background is a better model for imaging projects in that we work
@@ -73,9 +81,13 @@ export default () => (
       <p>Caffey, Inc. also proudly supports medical missions around the world.</p>
   </div>
 <div>
-<h1>Company History Timeline</h1>
+  <br/>
+  <h1>Company History Timeline</h1>
 <div>
+  <br/>
 <img src="/images/jerry.jpg" alt="jerrycaffey"/>
+<br/>
+<br/>
 </div>
 <ul>
   <li><b>1979:</b> Jerry Caffey graduates from Mississippi State University with degree in Construction Engineering Technology,
@@ -149,6 +161,10 @@ export default () => (
 <h3>Jeanna Ritter</h3>
 <h3>John Paul Buckley</h3>
 <Avatar src="/images/JPB.jpg" size="150" round="20px"/>
+ <br/>
+      <br/>
+      <br/>
+      <br/>
 </div>
 </React.Fragment>
 )
