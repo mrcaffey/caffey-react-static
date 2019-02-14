@@ -22,7 +22,6 @@ export default () => (
     <br/>
     <img src="/images/siemens_logo.jpg" alt="siemens"/>
     <br/>
-      <p>Siemens Medical Newsletter:</p>
       <p style={ styles.review}>
         "We just completed what is arguably the most complex project we have ever done outside the US 
         – Definition CT and Aera MR Installations for Camp Humphreys, in Pyeongtaek, South Korea.
@@ -33,6 +32,7 @@ export default () => (
         partner, to coordinate all on-site upfit activities over a 10 month period. Without Robert’s 
         team, and his oversight, this project would have been unbearable."</b>
       </p>
+      <p>Siemens Healthineers Supply Chain Newsletter, Vol. 2, January 25, 2019</p> 
       <br/>
       <br/>
       <br/>

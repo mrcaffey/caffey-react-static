@@ -50,6 +50,12 @@ const profiles = [
   {
     name: 'Kirk Zarske, P.E.',
     bio: 'Mechanical <br /> Design Manager',
+    img: 'kirk'
+  },
+  {
+    name: 'Brad Patano, P.E.',
+    bio: 'Design Manager',
+    img: 'brad'
   }
 ]
 
@@ -128,7 +134,7 @@ export default () => (
 
         <div style={styles.people}>
           <h3>Brad Patano, P.E.</h3>
-          <Avatar  src="/images/bradp.jpg" size="150" round="20px"/>
+          <Avatar  src={profile.img} size="150" round="20px"/>
           <p>Design Manager</p>
         </div>
         
