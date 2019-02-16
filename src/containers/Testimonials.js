@@ -16,11 +16,18 @@ const styles = {
 
 
 export default () => (
-  
+  <React.Fragment>
   <div>
-      <h1>Reviews for Caffey, Inc.</h1>
+      <h1>See what people have to say about us</h1>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <br/>
       <img src="/images/siemens_logo.jpg" alt="siemens"/>
+      <br/>
+      <h2>Siemens Medical Solutions, USA.</h2>
+      <br/>
       <br/>
       <p style={ styles.review}>
         "We just completed what is arguably the most complex project we have ever done outside the US 
@@ -53,5 +60,16 @@ export default () => (
           <br/>
           <br/>
           <br/>
-  </div>
+          <br/>
+          <br/>
+          <img src="/images/keesler_logo.png" alt="keesler-logo" />
+          <h2>Keesler Air Force Base Medical Center</h2>
+          <br/>
+          <br/>
+        <img src="/images/keeslernews.jpg" alt="keesler-news-article" />
+          <br/>
+          <br/>  
+    </div>
+  </React.Fragment>
+  
 )
