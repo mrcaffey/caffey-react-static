@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
+import { Router } from 'react-static'
 import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
@@ -15,10 +15,10 @@ const App = () => (
     <a href="tel:2283927465" style={{ fontSize: '1.5em', textAlign: 'right', display: 'block',  margin: '10px', color: 'maroon'}}>228-392-7465</a>
       <nav>
         <a href="/">Home</a>
-        <Link to="/about">About Us</Link>
-        <Link to="/work">Our Work</Link>
-        <Link to="/testimonials">Testimonials</Link>
-        <Link to="/contact">Contact Us</Link>
+        <a href to="/about">About Us</a>
+        <a href to="/work">Our Work</a>
+        <a href to="/testimonials">Testimonials</a>
+        <a href to="/contact">Contact Us</a>
       </nav>
       <div className="content">
         <Routes />
