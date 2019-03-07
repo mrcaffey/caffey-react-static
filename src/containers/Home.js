@@ -8,12 +8,16 @@ class Home extends React.Component {
     const images = [
       {
         original: 'images/rsz_siemensmachine.jpg',
+        
       },
       {
         original: 'images/signamachine.jpg',
       },
       {
         original: 'images/VA_Houston_MRI.jpg',
+      },
+      {
+        original: 'images/LAlineac.jpg',
       }
     ]
 
