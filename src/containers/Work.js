@@ -21,6 +21,7 @@ export default () => (
       <li>Tripler Army Medical Center Nuclear Medicine Room Renovation -- Honolulu, HI.</li>
       <li>Hilo Medical Center Radiology Room Renovation -- Hilo, HI.</li>
       <li>VA Pensacola DSPECT Nuclear Medicine Room Renovation -- Pensacola, FL.</li>
+      <li>Lyster Army Medical Center  -- Fort Rucker, AL.</li>
     </ul>
     <br/>
     <br/>
