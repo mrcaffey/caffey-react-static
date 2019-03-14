@@ -3,6 +3,6 @@ import React from 'react'
 
 export default () => (
   <div>
-    <h1> Sorry! :( This site is still under construction. Send an email to jpbuckley@caffeyinc.com for new inquiries!</h1>
+    <h1> Sorry! :( You've reached an unavailable page. Please go back to caffey-inc.com!
   </div>
 )
