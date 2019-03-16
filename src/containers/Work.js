@@ -1,6 +1,6 @@
 
 import React from 'react'
-//
+/* implement pagination here for jobs by state */
 
 export default () => (
   <div>
