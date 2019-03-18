@@ -1,6 +1,7 @@
 
 import React from 'react'
 /* implement pagination here for jobs by state */
+/* map showing shaded states based on work there */
 
 export default () => (
   <div>
