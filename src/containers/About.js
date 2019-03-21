@@ -108,8 +108,7 @@ export default () => (
   </li>
 </ul>
 
-{profiles.map(profile => {
-  return (
+{profiles.map(profile =>
     <div style={{display: "grid"}}>
       <h1>Design Team</h1>
       <div style={styles.profile}>
@@ -140,8 +139,8 @@ export default () => (
         
       </div>
     </div>
-    )
-  })}
+  )
+})}
 
 <h1>Production Managers</h1>
 <div style={styles.profile2}>
