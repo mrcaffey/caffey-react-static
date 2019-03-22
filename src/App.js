@@ -15,10 +15,10 @@ const App = () => (
     <a href="tel:2283927465" style={{ fontSize: '1.5em', textAlign: 'right', display: 'block',  margin: '10px', color: 'maroon'}}>228-392-7465</a>
       <nav>
         <a href="/">Home</a>
-        <a href to="/about">About Us</a>
-        <a href to="/work">Our Work</a>
-        <a href to="/testimonials">Testimonials</a>
-        <a href to="/contact">Contact Us</a>
+        <a href="/about">About Us</a>
+        <a href="/work">Our Work</a>
+        <a href="/testimonials">Testimonials</a>
+        <a href="/contact">Contact Us</a>
       </nav>
       <div className="content">
         <Routes />
