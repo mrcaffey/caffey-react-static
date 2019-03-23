@@ -6,7 +6,7 @@ import Avatar from 'react-avatar';
 const styles = {
 
   header:{
-    textDecoration: 'underline'
+    textDecoration: 'solid'
   },
 
   profile:{

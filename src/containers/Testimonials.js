@@ -18,7 +18,7 @@ const styles = {
 export default () => (
   <React.Fragment>
   <div>
-      <h1>See what people have to say about us</h1>
+      <h1><b>See what people have to say about us</b></h1>
       <br/>
       <br/>
       <br/>
