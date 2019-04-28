@@ -1,68 +1,14 @@
 
 import React from 'react'
-import Avatar from 'react-avatar';
+// import Avatar from 'react-avatar';
 //
 
-const styles = {
 
-  header:{
-    textDecoration: 'solid'
-  },
-
-  profile:{
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'baseline',
-    maxWidth: '825px',
-    flexWrap: 'wrap',
-  },
-
-  profile2:{
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'baseline',
-    marginRight: '200px',
-    maxWidth: '600px',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
-  },
-
-  people:{
-    display: 'flex',
-    flexDirection: 'column',
-    maxWidth: '175px',
-    alignItems: 'center',
-  },
-
-  individual: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-  },
-}
-
-const profiles = [
-  {
-    name: 'Alan Dubuisson',
-    bio: "Director of Design & Development",
-  },
-  {
-    name: 'Kirk Zarske, P.E.',
-    bio: 'Mechanical <br /> Design Manager',
-    img: 'kirk'
-  },
-  {
-    name: 'Brad Patano, P.E.',
-    bio: 'Design Manager',
-    img: 'brad'
-  }
-]
 
 export default () => (
   <React.Fragment>
   <div>
-    <div style={ styles.header }>
+    <div>
      <h1>Our Mission Statement</h1>
      <br/>
     </div>
@@ -107,69 +53,32 @@ export default () => (
     Department of Defense contracts on military bases across the US and World.
   </li>
 </ul>
+  <div>
+    <h1>Design Team</h1>
+    <h3>Alan Young</h3>
+      <p>Architect</p>
+    <h3>Brad Patano, P.E.</h3>
+      <p>Design Manager</p>
+  </div>
 
-{profiles.map(profile =>
-    <div style={{display: "grid"}}>
-      <h1>Design Team</h1>
-      <div style={styles.profile}>
-
-        <div style={styles.people}>
-          <h3>{profile.name}</h3>
-          <Avatar  skypeId="sitebase" size="150" round="20px"/>
-          <p style={styles.individual}>{profile.bio}</p>
-        </div>
-
-        <div style={styles.people}>
-          <h3>{profile.name}</h3>
-          <Avatar  src="/images/kirk.jpg" size="150" round="20px"/>
-          <p style={styles.individual}>{profile.bio}</p>
-        </div>
-
-        <div style={styles.people}>
-          <h3>Alan Young</h3>
-          <Avatar  skypeId="sitebase" size="150" round="20px"/>
-          <p>Architect</p>
-        </div>
-
-        <div style={styles.people}>
-          <h3>Brad Patano, P.E.</h3>
-          <Avatar  src={profile.img} size="150" round="20px"/>
-          <p>Design Manager</p>
-        </div>
-        
-      </div>
-    </div>
-  )
-})}
-
-<h1>Production Managers</h1>
-<div style={styles.profile2}>
-  <div style={styles.people}>
-    <h3>Robert Freese</h3>
-    <Avatar skypeId="sitebase" size="150" round="20px"/>
+  <div>
+  <h1>Production Managers</h1>
+  <h3>Robert Freese</h3>
+    <p>Project Manager</p>
+  <h3>Mike Everett</h3>
+    <p>Project Developer/Electrical Division Manager</p>
+  <h3>Lance Suchomel</h3>
     <p>Project Manager</p>
   </div>
-  <div style={styles.people}>
-    <h3>Mike Everett</h3>
-    <Avatar skypeId="sitebase" size="150" round="20px"/>
-    <p style={styles.individual}>Project Developer/Electrical Division Manager</p>
-  </div>
-  <div style={styles.people}>
-    <h3>Lance Suchomel</h3>
-    <Avatar src="/images/lance.jpg" size="150" round="20px"/>
-    <p>Project Manager</p>
-  </div>
-</div>
 
-<h1>Administration</h1>
-<h3>Sarah Loup</h3>
-<h3>Jeanna Ritter</h3>
-<h3>John Paul Buckley</h3>
-<Avatar src="/images/JPB.jpg" size="150" round="20px"/>
+ <h1>Administration</h1>
+ <h3>Sarah Loup</h3>
+ <h3>Jeanna Ritter</h3>
+ <h3>John Paul Buckley</h3>
  <br/>
       <br/>
       <br/>
       <br/>
-</div>
+  </div>
 </React.Fragment>
 )
