@@ -31,6 +31,7 @@ const App = () => (
             margin: "10px",
             marginLeft: "-30px",
             marginRight: "-30px"
+            
           }}
         />
       </div>

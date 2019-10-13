@@ -1,16 +1,12 @@
 
 import React from 'react'
-// import Avatar from 'react-avatar';
-//
-
-
 
 export default () => (
   <React.Fragment>
   <div>
     <div>
-     <h1>Our Mission Statement</h1>
-     <br/>
+      <h1>Our Mission Statement</h1>
+      <br/>
     </div>
     <ol>
     <b><li>To Honor God in All Transactions</li></b>
