@@ -33,7 +33,7 @@
     "react-responsive-carousel": "^3.1.45",
     "react-router": "^4.2.0",
     "react-router-dom": "4.3.1",
-    "react-static": "^5.9.12",
+    "react-static": "^7.6.2",
     "react-sticky-footer": "^0.1.0-rc3",
     "reactstrap": "^7.0.2"
   },
